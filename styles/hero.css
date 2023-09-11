@@ -76,3 +76,11 @@
     top: 0;
     transform: translate(0, -10%);
 }
+
+.hero-content>button:hover {
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
+    scale: 1.025;
+}
